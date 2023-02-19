@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.css-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  align-items: center;
+  height: 100vh;
+  padding: 30px;
+}
+
+.css-inside-container {
+  display: flex;
+  align-items: center;
+  gap: 700px;
+}
+
+.css-start-stop-container {
+  display: flex;
+  gap: 40px;
+}
+
+.css-inc-dec-container {
+  display: flex;
+  gap: 10px;
+}
+
+.css-inc-dec-button-itself {
+  background-color: transparent;
+  border-width: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.css-inputTimerValue-pargraph {
+  background-color: #00d9f5;
+  width: 50px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.css-start-stop-reset-image-button-itself {
+  background-color: transparent;
+  border-width: 0;
+}
+
+.css-start-stop-reset-image-itself {
+  width: 30px;
+}
+
+.css-start-container {
+  display: flex;
+  align-items: center;
+}
+
+.css-functions-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.css-timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
